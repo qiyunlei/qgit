@@ -1,0 +1,172 @@
+﻿@charset "utf-8";
+
+@font-face
+{
+font-family: myFirstFont;
+src: url('STHeiti-Light.ttc'),
+}
+html, body, div, object, pre, code, h1, h2, h3, h4, h5, h6, p, span, em,
+
+	cite, del, a, img, ul, li, ol, dl, dt, dd, fieldset, legend, form,
+
+	input, button, textarea, header, section, footer, article, nav, aside,
+
+	menu, figure, figcaption {
+
+	margin: 0;
+
+	padding: 0;
+
+	outline: none;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6, sup {
+
+	font-size: 100%;
+
+	font-weight: normal
+
+}
+
+
+
+fieldset, img {
+
+	border: 0;
+
+}
+
+
+
+input, textarea, select {
+
+	-webkit-appearance: none;
+
+	outline: none;
+
+}
+
+
+
+mark {
+
+	background: transparent;
+
+}
+
+
+
+header, section, footer, article, nav, aside, menu {
+
+	display: block
+
+}
+
+
+
+.clr {
+
+	display: block;
+
+	clear: both;
+
+	height: 0;
+
+	overflow: hidden;
+
+}
+
+/*table {
+
+	border-collapse:collapse;
+
+	border-spacing:0;
+
+}*/
+
+ol, ul, li {
+
+	list-style: none;
+
+}
+
+
+
+em {
+
+	font-style: normal
+
+}
+
+
+
+label, input, button, textarea {
+
+	border: none;
+
+	vertical-align: middle;
+
+}
+
+
+
+html, body {
+
+	width: 100%;
+
+	overflow-x: hidden
+
+}
+
+
+
+html {
+
+	-webkit-text-size-adjust: none;
+
+}
+
+
+
+body {
+
+	text-align: left;
+
+	font-family: myFirstFont;;
+
+	color: #666;
+
+	background-color: #E9E9EB;
+
+}
+
+
+
+.sanckbg {
+
+	background-color: #E9E9E9;
+
+}
+
+
+
+a {
+
+	text-decoration: none !important;
+
+	color: #464646;
+
+	outline: none;
+
+}
+
+
+
+a, li, input, button {
+
+	outline: none;
+
+}
